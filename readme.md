@@ -10,18 +10,29 @@
 
 ## 主要内容
 
-- 论文名称
-- 论文作者和单位
-- 杂志名称
-- 论文发表时间
-- 论文摘要Abstract
-- 论文归类
-- 论文关键词
-- 论文引用格式
-- doi
-- 论文链接
-- 论文阅读笔记
-- 论文全文pdf版本-文件格式
+- 1、论文归类
+- 2、论文名称
+- 3、论文作者和
+- 4、发表单位
+- 4、杂志名称
+- 5、论文发表时间
+- 6、论文摘要Abstract
+- 7、论文关键词
+- 8、论文引用格式
+- 9、doi
+- 10、论文链接
+- 11、论文阅读笔记
+- 12、论文全文pdf版本-路径
+
+### 论文格式 format
+
+数据库：sqlite3
+
+|序号|论文分类|论文名称|论文作者|发表单位|杂志名称|论文发表年份|关键词|论文摘要|引用格式|doi|论文链接|论文阅读笔记|论文全文pdf版本路径|保存时间|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|ID|Cat|Title|Author|Affil|Journal|Year|KeyWord|Abstract|Citation|Doi|Link|Summary|SavePath|Timestamp|
+|integer|Text|Text|Text|Text|Text|Date|Text|Text|Text|Text|Text|Text|Text|DateTime|
+
 
 ## 论文信息爬虫开发
 
